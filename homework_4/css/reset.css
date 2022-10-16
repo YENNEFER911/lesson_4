@@ -1,0 +1,53 @@
+/* -----------------------ОБНУЛЕННЯ----------------------- */
+
+/* запит зірочка, звернеться до усіх обєктів на сторнці, 
+самий НЕ конкретний, самий широкий запит. ДО УСЬОГО!
+МАЄ НАЙНИЖЧИЙ ПРІОРІТЕТ */
+*,
+::before,
+::after{
+    /* прибрати відступи */
+    margin: 0;
+    /* прибрати відступи */
+    padding: 0;
+    /*  */
+    border: none;
+    box-sizing: border-box;
+}
+li{
+    /* прибираємо стилізацію */
+  list-style: none;  
+}
+a{
+    color: inherit;
+}
+a:link,
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6{
+    /* жирність */
+    font-weight: inherit;
+    /* розмір */
+    font-size: inherit;
+}
+input,
+button,
+textarea{
+    font-size: inherit;
+    font-weight: inherit;
+}
+button{
+    cursor:pointer;
+    color: inherit;
+    background-color: inherit;
+}
+body{
+    line-height: 1;
+}

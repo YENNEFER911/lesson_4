@@ -1,0 +1,121 @@
+
+/* подключение шрифтов */
+body{
+    font-family: "Larsseit";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face{
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    font-family: "Larsseit";
+} 
+
+
+
+
+
+/* <!---------------------------------- HOME WORK------------------------------------------- --> */
+
+/* приоритеты */
+p{
+    color: green;
+}
+p{
+    color: gold;
+}
+
+
+.text{
+    color: red;
+}
+#ipsut{
+    color: blue;
+}
+.text-bla p{
+    color: olive;
+}
+p.two{
+    color: greenyellow;
+}
+
+
+#ibyk{
+    color: lightcoral;
+}
+p.texxt{
+    color: fuchsia;
+}
+.texxt{
+    color: blueviolet;
+}
+p.there{
+    color: aqua;
+}
+
+
+#ibyka{
+    color: teal;
+}
+.terxt.lesson{
+    color: chartreuse;
+}
+p.terxt{
+    color: royalblue;
+} 
+p.lesson{
+    color: crimson;
+}
+
+p.four{
+    color: darkorange;
+}
+
+
+#ibeka{
+    color: salmon;
+}
+.trext.lesson.bla{
+    color: darkgoldenrod;
+} 
+.trext.lesson{
+    color: indigo;
+}
+p.trext{
+    color: black;
+} 
+
+p.fife{
+    color: khaki;
+}
+
+/* комбинации селекторив  */
+
+
+
+
+
+
+
+
